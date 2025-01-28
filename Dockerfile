@@ -69,7 +69,7 @@ RUN apk add --no-cache \
 ENV DEBUG=Server,WireGuard
 
 # Make the default dir for wg0.conf
-# RUN mkdir -p /etc/amnezia/amneziawg/
+RUN mkdir -p /etc/amnezia/amneziawg/
 
 WORKDIR /app
 
